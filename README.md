@@ -20,9 +20,10 @@ Here we use the upper limit=Q3+1.5*IQR and
 
 ## Percentile
 upper limit=dataframe.quantile(0.95)
+
 lower limit=dataframe.quantile(0.05)
 
-
+Also can use 99% and 1% as the upper and lower quantile.
 ## Methods to remove Outliers
 1. Trimming: It is a method of deleting the rows that are considered to be the outliers
 2. Capping: Not deleting any data from dataset , instead keeping away from the distribution.
