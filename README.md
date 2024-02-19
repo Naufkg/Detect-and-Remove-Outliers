@@ -35,3 +35,28 @@ Also can use 99% and 1% as the upper and lower quantile.
 #checking the dataset and selecting the numerical columns
 numerical_columns=df.select_dtypes(include=['int', 'float']).columns
 numerical_columns
+
+
+# Hypothesis Testing
+
+Hypothesis testing is a statistical method used to make inferences about a population parameter based on sample data. It involves the formulation of two competing hypotheses: the null hypothesis (H0) and the alternative hypothesis (H1 or Ha). The null hypothesis typically represents the status quo or a statement of no effect, while the alternative hypothesis represents the opposite.
+
+1. Formulating Hypotheses: Define the null hypothesis (H0) and the alternative hypothesis (H1). These hypotheses should be mutually exclusive and exhaustive.
+
+2. Choosing a Significance Level: Select the level of significance (alpha, usually denoted as α), which represents the probability of rejecting the null hypothesis when it is true. Common choices for α include 
+   0.05 and 0.01.
+
+3. Collecting Data: Obtain a sample from the population of interest.
+
+4. Calculating Test Statistic: Calculate a test statistic based on the sample data and the assumptions of the null hypothesis.
+
+5. Determining the Critical Region: Determine the critical region of the test statistic, which represents extreme values that would lead to rejection of the null hypothesis.
+
+6. Making a Decision: Compare the calculated test statistic to the critical values. If the test statistic falls within the critical region, reject the null hypothesis in favor of the alternative hypothesis. If it does not fall within the critical region, fail to reject the null hypothesis.
+
+7. Drawing Conclusion: Based on the decision in step 6, draw a conclusion about the population parameter of interest.
+
+   
+ ## Hypothesis tests used here:
+   1. Z-test:Used for testing hypotheses about population mean when the population standard deviation is known.
+   2. t-test: Similar to the Z-test but used when the population standard deviation is unknown and estimated from the sample.
