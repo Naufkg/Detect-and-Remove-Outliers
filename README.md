@@ -60,3 +60,39 @@ Hypothesis testing is a statistical method used to make inferences about a popul
  ## Hypothesis tests used here:
    1. Z-test:Used for testing hypotheses about population mean when the population standard deviation is known.
    2. t-test: Similar to the Z-test but used when the population standard deviation is unknown and estimated from the sample.
+
+
+# Data Preprocessing
+In the real world, we usually come across lots of raw data, which are especially sensitive to noisy, missing, and inconsistent  since it originates from various sources with different characteristics
+
+1. Raw data - real-world data, such as text, pictures, and videos etc.
+
+2. Low-quality data will yield low-quality data mining outcomes
+
+3. Data mining is a process for extracting knowledge and useful patterns from vast volumes of data
+
+### What steps should be taken in order to improve the data's quality?
+
+Data preprocessing is the most important step in the data mining process and has a significant impact on the precision and effectiveness of the output
+
+Data preprocessing is an approach of converting the raw data into a clean data set
+
+Data pre-processing
+
+Data preprocessing is the process of converting raw data into a format that is understandable and readable for a machine learning model.
+
+### Importand steps of Data Preprocessing
+1.Acquire the dataset
+2.Importing libraries
+3.Importing datasets
+4.Finding Missing Data
+5.Encoding Categorical Data
+6.Splitting the dataset
+7.Feature scaling
+
+
+### The main Python libraries used for data preprocessing in machine learning are:
+
+ NumPy
+ Matplotlib
+ Pandas
