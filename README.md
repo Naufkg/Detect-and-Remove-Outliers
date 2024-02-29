@@ -63,6 +63,10 @@ Hypothesis testing is a statistical method used to make inferences about a popul
 
 
 # Data Preprocessing
+
+Objective:
+ The main objective of this project is to design and implement a robust data preprocessing system that addresses common challenges such as missing values, outliers, inconsistent formatting, and noise. By performing effective data preprocessing, the project aims to enhance the quality, reliability, and usefulness of the data for machine learning.
+ 
 In the real world, we usually come across lots of raw data, which are especially sensitive to noisy, missing, and inconsistent  since it originates from various sources with different characteristics
 
 1. Raw data - real-world data, such as text, pictures, and videos etc.
