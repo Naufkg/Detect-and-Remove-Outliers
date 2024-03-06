@@ -103,3 +103,45 @@ Data preprocessing is the process of converting raw data into a format that is u
  NumPy
  Matplotlib
  Pandas
+
+
+
+# Linear Regression
+Linear regression is a statistical modeling technique used to model the relationship between a dependent variable (also called the target or response variable) and one or more independent variables (also called predictors or features). It assumes that the relationship between the variables is linear, meaning that the change in the dependent variable is directly proportional to the change in the independent variables.
+
+### Problem Statement
+A Chinese automobile company Geely Auto aspires to enter the US market by setting up their manufacturing unit there and producing cars locally to give competition to their US and European counterparts. They have contracted an automobile consulting company to understand the factors on which the pricing of cars depends. Specifically, they want to understand the factors affecting the pricing of cars in the American market, since those may be very different from the Chinese market. The company wants to know:
+
+Which variables are significant in predicting the price of a car 
+How well those variables describe the price of a car 
+Based on various market surveys, the consulting firm has gathered a large dataset of different types of cars across the American market. So, put on your seatbelt and get ready for a fun journey. We're about to explore the world of cars, solve mysteries, and have a good laugh along the way! 
+
+### Steps 
+Understanding the Problem Statement
+Data Checks to Perform
+Exploratory Data Analysis
+Data Pre-Processing
+Model Training
+Choose Best Model
+
+We have DataSet > Car Price 
+The Shape DataSet = (Rows = 205, columns = 26) 
+
+No null value 
+
+No Duplicated value 
+Some Analyst 
+
+Price cars 
+Avg price = $13,276 
+
+Min price = $5,118 
+
+Max price = $45,400 
+
+### Analysis
+When increasing the number of cylinders, the price tends to increase, though the majority of users stick with 4 cylinders.
+As the engine size increases, so does the price.
+The wheelbase, car length, and car width have an effect on the price, but the car height doesn't seem to have any significant impact.
+
+the best model Linear Regression  with 87% accuracy.
